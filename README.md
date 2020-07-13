@@ -4,7 +4,7 @@ This project explores the differnet neighborhoods in LA county for their speical
 
 ## Notable Files:
 * [Foodborhood_in_LA_presentation.pdf](Foodborhood_in_LA_presentation.pdf) - contains the Powerpoint slides for this project
-* [Battle of the neighborhoods.ipynb](Battle of the neighborhoods.ipynb) - the Python notebook containing all the Python code used for this project: including EDA, data cleaning, analysis, and images
+* [Battle of the neighborhoods.ipynb](https://github.com/eyyeung/Exploring-Foodborhood-in-LA/blob/master/Battle%20of%20the%20neighborhoods.ipynb) - the Python notebook containing all the Python code used for this project: including EDA, data cleaning, analysis, and images
 * [Foodborhood_in_LA_report.pdf](Foodborhood_in_LA_report.pdf) - the PDF version of the write-up about this project
 
 # Write-up about this project (without images)
