@@ -13,18 +13,18 @@ Los Angeles is well known for having diverse types of food. Often, different cui
 With so many different neighborhoods in Los Angeles area, foodies need to know which neighborhoods are enriched in what kinds of cuisine and which neighborhoods are similar in their food options.
 
 ### Target
-	Restaurateurs looking to open new food venues would be interested in the kind of cuisine represented in the neighborhood. Foodies living near LA or visiting LA would also be interested in this information.
+Restaurateurs looking to open new food venues would be interested in the kind of cuisine represented in the neighborhood. Foodies living near LA or visiting LA would also be interested in this information.
   
 ### Approach
-	I am going to use FourSquare API to obtain information about food venues in the different neighborhoods in the downtown Los Angeles area. In order to do that, I need the neighborhood names, longitude, and latitude of the neighborhood. I will present the different 
+I am going to use FourSquare API to obtain information about food venues in the different neighborhoods in the downtown Los Angeles area. In order to do that, I need the neighborhood names, longitude, and latitude of the neighborhood. I will present the different 
   
 ## Data Acquisition and Cleaning
 
 ### Data Requirement
-	For each of the neighborhood in the downtown area, I need the zip code, neighborhood name, longitude, and latitude in order to use the FourSquare API to obtain a list of food venues in that neighborhood. The main information I need from the list of food venues is the type of cuisine the venue belongs to.
+For each of the neighborhood in the downtown area, I need the zip code, neighborhood name, longitude, and latitude in order to use the FourSquare API to obtain a list of food venues in that neighborhood. The main information I need from the list of food venues is the type of cuisine the venue belongs to.
 
 ### Data Source
-	The zip code and name of the neighborhood in Los Angeles County can be obtained through LA almanac. The longitude and latitude of all areas in California can be obtained through OpenDataSoft.
+The zip code and name of the neighborhood in Los Angeles County can be obtained through LA almanac. The longitude and latitude of all areas in California can be obtained through OpenDataSoft.
   
 ### Data Cleaning
 - Data obtained from LA almanac is converted to a pandas dataframe with zipcode, name of neighborhood, and the median income. The median income column was dropped. The neighborhood column has information about whether the neighborhood is in downtown Los Angeles or elsewhere in the county. To focus only on downtown Los Angeles, all rows with neighborhoods outside of the Los Angeles downtown were dropped.
@@ -54,7 +54,7 @@ I performed some exploratory data analysis with obtained results and to check ag
 - However, it doesn’t look like there is an elbow. Instead, I picked k manually through manual inspection of the clusters. A k of 7 looked to be the most meaningful.
   
 ## Results
-	I created a Folium map and colored the different clusters with different colors. Visually inspecting the map, there were separation of the clusters regionally. Noticeably, there is a blue cluster in the central area. 
+I created a Folium map and colored the different clusters with different colors. Visually inspecting the map, there were separation of the clusters regionally. Noticeably, there is a blue cluster in the central area. 
   
 ## Discussion
 - K-mean clustering clustered the 53 neighborhoods into 7 different clusters. These clusters used the frequency of each cuisine in the neighborhood as features. 
