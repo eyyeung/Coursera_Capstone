@@ -1,6 +1,6 @@
 # Exploring the Food Vibe of LA neighborhoods
 ## Description
-This project explores the differnet neighborhoods in LA city for their speicality in food / cuisine. I used the FourSquare API and Folium map to obtian restaurant and geogrpahical informatino about Los Angeles County. I then performed EDA and K-mean clustering using Python to discover the major cuisines in different neighoborhood. This information could help foodie explore new neighborhood depending on their food taste preference.
+This project explores the differnet neighborhoods in LA county for their speicality in food / cuisine. I used the FourSquare API and Folium map to obtian restaurants in LA county and geogrpahical information about Los Angeles County. I also scraped LA almanac for neighborhood information. I then performed EDA and K-mean clustering using Python scikit-learn to discover similar neighoborhoods based on their their cuisine types. This information could help foodie explore new neighborhood depending on their food taste preference.
 
 # Write-up about this project
 
