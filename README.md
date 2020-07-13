@@ -2,7 +2,13 @@
 ## Description
 This project explores the differnet neighborhoods in LA county for their speicality in food / cuisine. I used the FourSquare API and Folium map to obtian restaurants in LA county and geogrpahical information about Los Angeles County. I also scraped LA almanac for neighborhood information. I then performed EDA and K-mean clustering using Python scikit-learn to discover similar neighoborhoods based on their their cuisine types. This information could help foodie explore new neighborhood depending on their food taste preference.
 
-# Write-up about this project
+## Notable Files:
+* Foodborhood_in_LA_presentation.pdf - contains the Powerpoint slides for this project
+* Battle of the neighborhoods.ipynb - the Python notebook containing all the Python code used for this project: including EDA, data cleaning, analysis, and images
+* Foodborhood_in_LA_report.pdf - the PDF version of the write-up about this project
+
+# Write-up about this project (without images)
+* See [Foodborhood_in_LA_report.pdf](https://github.com/eyyeung/Exploring-Foodborhood-in-LA/blob/master/Foodborhood_in_LA_report.pdf) for the complete report with images
 
 ## Introduction
 
